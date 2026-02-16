@@ -1,0 +1,124 @@
+/* AJUSTES GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #116831;
+    --seconday-color: #ffffff;
+    --terciary-color: #1A1A1A;
+    --mono-color: #727272;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+p, a, button {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 3em;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3em;
+}
+
+/* BOTNONES */
+
+button {
+    margin: 2em 0;
+    padding: 0.5em 1.5em;
+    background-color: var(--primary-color);
+    color: var(--seconday-color);
+    border: 0;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--terciary-color);
+    color: var(--seconday-color);
+}
+
+.toback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.toback button {
+    background-color: var(--mono-color);
+    padding: 0.5em 3.5em;
+}
+
+.toback button:hover {
+    background-color: var(--terciary-color)
+}
+
+/* MAIN PAGE CONTAINER */
+
+.main-page-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 3em;
+}
+
+.problem-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* Problema 3 */
+
+#ele1 {
+    cursor: pointer;
+    padding: 2em;
+    border-radius: 20px;
+    font-weight: 600;
+}
