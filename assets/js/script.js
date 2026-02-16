@@ -4,10 +4,11 @@ Separación de archivos .html & .js
 */
 
 
-/* --- PROBLEMA 2.2 --- */
-/* (desactivar comentarios para probar) */
-/*
 
+/* --- PROBLEMA 2.2 --- */
+/* (comentar para activar) */
+
+/*
 const ele = document.getElementById("ele1")
 
 function pintar(ele) {
@@ -17,11 +18,11 @@ function pintar(ele) {
 ele.addEventListener("click", function() {
     pintar(ele);
 });
-
 */
 
+
 /* --- PROBLEMA 2.3 --- */
-/* (comentar para desactivar y probar 'Problema 2') */
+/* (comentar para desactivar) */
 
 let numClicks = 0;
 
