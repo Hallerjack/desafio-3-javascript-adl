@@ -6,7 +6,7 @@ Separación de archivos .html & .js
 
 
 /* --- PROBLEMA 2.2 --- */
-/* (comentar para activar) */
+/* (quitar comentario para activar) */
 
 /*
 const ele = document.getElementById("ele1")
